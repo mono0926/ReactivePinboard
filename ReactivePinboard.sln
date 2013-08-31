@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactivePinboard", "ReactivePinboard\ReactivePinboard.csproj", "{2D21874B-3AD7-496C-A9AE-3AAD8CE6CFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactivePinboard.WP7", "ReactivePinboard.WP7\ReactivePinboard.WP7.csproj", "{B755A702-8F5D-4B2C-8B88-D76D3E976A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactivePinboard.PCL", "ReactivePinboard.PCL\ReactivePinboard.PCL.csproj", "{A448B658-1E13-4FED-ADD6-FFCCC25BB162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactivePinboard.Test", "ReactivePinboard.Test\ReactivePinboard.Test.csproj", "{3A1BAA5C-19EC-4EF9-8639-23699028BE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EA8EDDB-AD5C-4889-8926-1C23F18BF832}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ReactivePinboard.vsmdi = ReactivePinboard.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveHatena", "ReactiveHatena\ReactiveHatena.csproj", "{87886984-E05F-41AA-B561-F52DAAD96902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveHatena.WP7", "ReactiveHatena.WP7\ReactiveHatena.WP7.csproj", "{6308EECE-EB02-42FF-A547-4E2CB5B624BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveHatena.Test", "ReactiveHatena.Test\ReactiveHatena.Test.csproj", "{C7B73368-D647-430F-A462-46FEB34C23E8}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ReactivePinboard.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D21874B-3AD7-496C-A9AE-3AAD8CE6CFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D21874B-3AD7-496C-A9AE-3AAD8CE6CFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D21874B-3AD7-496C-A9AE-3AAD8CE6CFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D21874B-3AD7-496C-A9AE-3AAD8CE6CFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B755A702-8F5D-4B2C-8B88-D76D3E976A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B755A702-8F5D-4B2C-8B88-D76D3E976A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B755A702-8F5D-4B2C-8B88-D76D3E976A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B755A702-8F5D-4B2C-8B88-D76D3E976A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A448B658-1E13-4FED-ADD6-FFCCC25BB162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A448B658-1E13-4FED-ADD6-FFCCC25BB162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A448B658-1E13-4FED-ADD6-FFCCC25BB162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A448B658-1E13-4FED-ADD6-FFCCC25BB162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1BAA5C-19EC-4EF9-8639-23699028BE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1BAA5C-19EC-4EF9-8639-23699028BE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1BAA5C-19EC-4EF9-8639-23699028BE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1BAA5C-19EC-4EF9-8639-23699028BE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87886984-E05F-41AA-B561-F52DAAD96902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87886984-E05F-41AA-B561-F52DAAD96902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87886984-E05F-41AA-B561-F52DAAD96902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87886984-E05F-41AA-B561-F52DAAD96902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6308EECE-EB02-42FF-A547-4E2CB5B624BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6308EECE-EB02-42FF-A547-4E2CB5B624BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6308EECE-EB02-42FF-A547-4E2CB5B624BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6308EECE-EB02-42FF-A547-4E2CB5B624BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B73368-D647-430F-A462-46FEB34C23E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B73368-D647-430F-A462-46FEB34C23E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B73368-D647-430F-A462-46FEB34C23E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B73368-D647-430F-A462-46FEB34C23E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
